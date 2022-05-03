@@ -1,0 +1,14 @@
+// -*- C++ -*- (syntax highlighting)
+#SPATIAL.ascii 1
+SimpleDB {
+  num-values = 4
+  value-names = static-coefficient dynamic-coefficient slip-weakening-parameter cohesion
+  value-units = None None  m  MPa
+  num-locs = 90000 
+  data-dim = 2
+  space-dim = 3
+  cs-data = cartesian {
+    to-meters = 1.0e+3 // Specify coordinates in km for convenience.
+    space-dim = 3
+  } // cs-data
+} // SimpleDB

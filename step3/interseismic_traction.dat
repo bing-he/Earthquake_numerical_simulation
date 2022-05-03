@@ -1,0 +1,14 @@
+// -*- C++ -*- (syntax highlighting)
+#SPATIAL.ascii 1
+SimpleDB {
+  num-values = 3
+  value-names =  traction-shear-leftlateral traction-shear-updip  traction-normal
+  value-units =  MPa MPa MPa
+  num-locs =  90000
+  data-dim = 2
+  space-dim = 3
+  cs-data = cartesian {
+    to-meters = 1.0e+3 // Specify coordinates in km for convenience.
+    space-dim = 3
+  } // cs-data
+} // SimpleDB
