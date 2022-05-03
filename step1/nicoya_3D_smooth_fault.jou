@@ -1,0 +1,236 @@
+#{Units('si')}
+reset
+clear
+# Make sure undo is off to prevent errors in stitching volumes.
+undo off
+
+### create geometry #########
+brick x {190*km} y {180*km} z {80*km}
+volume 1 move x {75*km} y {90*km} z {-44.5*km}  
+create vertex x {0.000000*km} y {0*km} z { -4.5*km}
+${idzero=Id('vertex')}
+create vertex x {8.000000*km} y {0*km} z { -6.169747*km}
+create vertex x {9.000000*km} y {0*km} z { -6.402262*km}
+create vertex x {10.000000*km} y {0*km} z { -6.630128*km}
+create vertex x {11.000000*km} y {0*km} z { -6.853512*km}
+create vertex x {12.000000*km} y {0*km} z { -7.072581*km}
+create vertex x {13.000000*km} y {0*km} z { -7.287506*km}
+create vertex x {14.000000*km} y {0*km} z { -7.498459*km}
+create vertex x {15.000000*km} y {0*km} z { -7.705612*km}
+create vertex x {16.000000*km} y {0*km} z { -7.909141*km}
+create vertex x {17.000000*km} y {0*km} z { -8.109222*km}
+create vertex x {18.000000*km} y {0*km} z { -8.306033*km}
+create vertex x {19.000000*km} y {0*km} z { -8.499753*km}
+create vertex x {20.000000*km} y {0*km} z { -8.690564*km}
+create vertex x {21.000000*km} y {0*km} z { -8.878648*km}
+create vertex x {22.000000*km} y {0*km} z { -9.064190*km}
+create vertex x {23.000000*km} y {0*km} z { -9.247374*km}
+create vertex x {24.000000*km} y {0*km} z { -9.428389*km}
+create vertex x {25.000000*km} y {0*km} z { -9.607423*km}
+create vertex x {26.000000*km} y {0*km} z { -9.784667*km}
+create vertex x {27.000000*km} y {0*km} z { -9.960312*km}
+create vertex x {28.000000*km} y {0*km} z { -10.134553*km}
+create vertex x {29.000000*km} y {0*km} z { -10.307585*km}
+create vertex x {30.000000*km} y {0*km} z { -10.479604*km}
+create vertex x {31.000000*km} y {0*km} z { -10.650809*km}
+create vertex x {32.000000*km} y {0*km} z { -10.821399*km}
+create vertex x {33.000000*km} y {0*km} z { -10.991576*km}
+create vertex x {34.000000*km} y {0*km} z { -11.161543*km}
+create vertex x {35.000000*km} y {0*km} z { -11.331504*km}
+create vertex x {36.000000*km} y {0*km} z { -11.501667*km}
+create vertex x {37.000000*km} y {0*km} z { -11.672237*km}
+create vertex x {38.000000*km} y {0*km} z { -11.843425*km}
+create vertex x {39.000000*km} y {0*km} z { -12.015442*km}
+create vertex x {40.000000*km} y {0*km} z { -12.188499*km}
+create vertex x {41.000000*km} y {0*km} z { -12.362811*km}
+create vertex x {42.000000*km} y {0*km} z { -12.538594*km}
+create vertex x {43.000000*km} y {0*km} z { -12.716064*km}
+create vertex x {44.000000*km} y {0*km} z { -12.895440*km}
+create vertex x {45.000000*km} y {0*km} z { -13.076942*km}
+create vertex x {46.000000*km} y {0*km} z { -13.260793*km}
+create vertex x {47.000000*km} y {0*km} z { -13.447215*km}
+create vertex x {48.000000*km} y {0*km} z { -13.636434*km}
+create vertex x {49.000000*km} y {0*km} z { -13.828675*km}
+create vertex x {50.000000*km} y {0*km} z { -14.024168*km}
+create vertex x {51.000000*km} y {0*km} z { -14.223141*km}
+create vertex x {52.000000*km} y {0*km} z { -14.425826*km}
+create vertex x {53.000000*km} y {0*km} z { -14.632456*km}
+create vertex x {54.000000*km} y {0*km} z { -14.843265*km}
+create vertex x {55.000000*km} y {0*km} z { -15.058489*km}
+create vertex x {56.000000*km} y {0*km} z { -15.278365*km}
+create vertex x {57.000000*km} y {0*km} z { -15.503132*km}
+create vertex x {58.000000*km} y {0*km} z { -15.733031*km}
+create vertex x {59.000000*km} y {0*km} z { -15.968305*km}
+create vertex x {60.000000*km} y {0*km} z { -16.209197*km}
+create vertex x {61.000000*km} y {0*km} z { -16.455951*km}
+create vertex x {62.000000*km} y {0*km} z { -16.708816*km}
+create vertex x {63.000000*km} y {0*km} z { -16.968039*km}
+create vertex x {64.000000*km} y {0*km} z { -17.233871*km}
+create vertex x {65.000000*km} y {0*km} z { -17.506563*km}
+create vertex x {66.000000*km} y {0*km} z { -17.786368*km}
+create vertex x {67.000000*km} y {0*km} z { -18.073541*km}
+create vertex x {68.000000*km} y {0*km} z { -18.368339*km}
+create vertex x {69.000000*km} y {0*km} z { -18.671018*km}
+create vertex x {70.000000*km} y {0*km} z { -18.981839*km}
+create vertex x {71.000000*km} y {0*km} z { -19.301062*km}
+create vertex x {72.000000*km} y {0*km} z { -19.628950*km}
+create vertex x {73.000000*km} y {0*km} z { -19.965767*km}
+create vertex x {74.000000*km} y {0*km} z { -20.311779*km}
+create vertex x {75.000000*km} y {0*km} z { -20.667253*km}
+create vertex x {76.000000*km} y {0*km} z { -21.032458*km}
+create vertex x {77.000000*km} y {0*km} z { -21.407664*km}
+create vertex x {78.000000*km} y {0*km} z { -21.793143*km}
+create vertex x {79.000000*km} y {0*km} z { -22.189168*km}
+create vertex x {80.000000*km} y {0*km} z { -22.596015*km}
+create vertex x {81.000000*km} y {0*km} z { -23.013961*km}
+create vertex x {82.000000*km} y {0*km} z { -23.443283*km}
+create vertex x {83.000000*km} y {0*km} z { -23.884261*km}
+create vertex x {84.000000*km} y {0*km} z { -24.337177*km}
+create vertex x {85.000000*km} y {0*km} z { -24.802313*km}
+create vertex x {86.000000*km} y {0*km} z { -25.279955*km}
+create vertex x {87.000000*km} y {0*km} z { -25.770387*km}
+create vertex x {88.000000*km} y {0*km} z { -26.273898*km}
+create vertex x {89.000000*km} y {0*km} z { -26.790777*km}
+create vertex x {90.000000*km} y {0*km} z { -27.321315*km}
+create vertex x {91.000000*km} y {0*km} z { -27.865803*km}
+create vertex x {92.000000*km} y {0*km} z { -28.424536*km}
+create vertex x {93.000000*km} y {0*km} z { -28.997809*km}
+create vertex x {94.000000*km} y {0*km} z { -29.585920*km}
+create vertex x {95.000000*km} y {0*km} z { -30.189166*km}
+create vertex x {96.000000*km} y {0*km} z { -30.807848*km}
+create vertex x {97.000000*km} y {0*km} z { -31.442267*km}
+create vertex x {98.000000*km} y {0*km} z { -32.092728*km}
+create vertex x {99.000000*km} y {0*km} z { -32.759534*km}
+create vertex x {100.000000*km} y {0*km} z { -33.442992*km}
+create vertex x {101.000000*km} y {0*km} z { -34.143411*km}
+create vertex x {102.000000*km} y {0*km} z { -34.861099*km}
+create vertex x {103.000000*km} y {0*km} z { -35.596367*km}
+create vertex x {104.000000*km} y {0*km} z { -36.349529*km}
+create vertex x {105.000000*km} y {0*km} z { -37.120899*km}
+create vertex x {106.000000*km} y {0*km} z { -37.910793*km}
+create vertex x {107.000000*km} y {0*km} z { -38.719527*km}
+create vertex x {108.000000*km} y {0*km} z { -39.547421*km}
+create vertex x {109.000000*km} y {0*km} z { -40.394795*km}
+create vertex x {110.000000*km} y {0*km} z { -41.261971*km}
+create vertex x {111.000000*km} y {0*km} z { -42.149274*km}
+create vertex x {112.000000*km} y {0*km} z { -43.057027*km}
+create vertex x {113.000000*km} y {0*km} z { -43.985559*km}
+create vertex x {114.000000*km} y {0*km} z { -44.935197*km}
+create vertex x {115.000000*km} y {0*km} z { -45.906271*km}
+create vertex x {116.000000*km} y {0*km} z { -46.899113*km}
+create vertex x {117.000000*km} y {0*km} z { -47.914056*km}
+create vertex x {118.000000*km} y {0*km} z { -48.951434*km}
+create vertex x {119.000000*km} y {0*km} z { -50.011583*km}
+create vertex x {120.000000*km} y {0*km} z { -51.094842*km}
+create vertex x {121.000000*km} y {0*km} z { -52.201549*km}
+create vertex x {122.000000*km} y {0*km} z { -53.332046*km}
+create vertex x {123.000000*km} y {0*km} z { -54.486675*km}
+create vertex x {124.000000*km} y {0*km} z { -55.665779*km}
+create vertex x {125.000000*km} y {0*km} z { -56.869706*km}
+create vertex x {126.000000*km} y {0*km} z { -58.098800*km}
+create vertex x {127.000000*km} y {0*km} z { -59.353412*km}
+create vertex x {128.000000*km} y {0*km} z { -60.633892*km}
+create vertex x {129.000000*km} y {0*km} z { -61.940591*km}
+create vertex x {130.000000*km} y {0*km} z { -63.0*km}
+create vertex x {150*km} y  {0*km} z { -84.5 *km} 
+${idone=Id('vertex')}
+create curve spline vertex {idzero} to {idone} delete 
+${curvezero=Id('curve')} 
+webcut volume all sweep curve {curvezero} vector 0 1 0 through_all 
+curve 25 copy move x {-20*km} y {0*km} z {21.5*km}
+split surface 12 across location vertex 143 142
+curve 33 copy move x {0*km} y{10*km} z{0*km}
+split surface 17 across location vertex 147 146
+curve 32 copy move x {0*km} y{-10*km} z{0*km}
+split surface 19 across location vertex 151 150
+
+#curve 25 copy
+#move curve 30 draw direction location on curve 13 distance {160*km} surface 14 distance {-30*km}
+#surface 18 move x {80*km} y {90*km}
+#rotate surface 18 all about Y angle 19 
+#surface 18 move  x {180*km} y {50*km} 
+#rotate surface 18 all about X angle -19 
+
+imprint all  
+merge all  
+delete curve all 
+
+### mesh #########
+volume all scheme TetMesh
+surface all size {2*km}
+surface 21 size {1*km}  
+surface 20 size {1*km}  
+surface 22 size {1*km}  
+surface 8 sizing function type bias start curve 44 factor 1.01   
+surface 11 sizing function type bias start curve 32 factor 1.01   
+surface 14 sizing function type bias start curve 32 factor 1.01   
+surface 9 sizing function type bias start curve 33 factor 1.01   
+surface 16 sizing function type bias start curve 33 factor 1.01  
+surface 18 sizing function type bias start curve 45 factor 1.01   
+mesh volume all
+
+# ----------------------------------------------------------------------
+# Smooth mesh to improve quality
+# ----------------------------------------------------------------------
+volume all smooth scheme condition number beta 1.7 cpu 10  
+smooth volume all  
+
+######define mesh#########
+
+block 1 volume 2
+block 2 volume 1
+block 1 name "down_block"
+block 2 name "up_block"
+
+group "up_boundary" add node in surface 8
+group "up_boundary" add node in surface 13
+nodeset 1 group up_boundary 
+nodeset 1 name "up_group"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+group "down_boundary" add node in surface 10
+group "down_boundary" add node in surface 15
+group "down_boundary" remove node in surface 9
+group "down_boundary" remove node in surface 16
+group "down_boundary" remove node in surface 4
+group "down_boundary" remove node in surface 6
+group "down_boundary" remove node in surface 11
+group "down_boundary" remove node in surface 14
+nodeset 2 group down_boundary
+nodeset 2 name "down_group"
+
+group "left_boundary" add node in surface 4
+group "left_boundary" remove node in surface 14
+group "left_boundary" remove node in surface 16
+nodeset 3 group left_boundary
+nodeset 3 name "left_group"
+
+group "right_boundary" add node in surface 6
+group "right_boundary" remove node in surface 9
+group "right_boundary" remove node in surface 11
+nodeset 4 group right_boundary
+nodeset 4 name "right_group"
+
+group "fault_interface" add node in surface 21
+nodeset 5 group fault_interface
+nodeset 5 name "fault_interface"
+
+
+group "forward_boundary" add node in surface 11
+group "forward_boundary" add node in surface 14
+nodeset 6 group forward_boundary
+nodeset 6 name "forward_group"
+
+group "backward_boundary" add node in surface 9
+group "backward_boundary" add node in surface 16
+nodeset 7 group backward_boundary
+nodeset 7 name "backward_group"
+
+group "fault_edge" add node in curve 36
+group "fault_edge" add node in curve 45
+group "fault_edge" add node in curve 42
+nodeset 8 group fault_edge
+nodeset 8 name "fault_edge"
+
+export mesh "nicoya_3D_static_model_smooth_grid1km.exo" dimension 3 overwrite
+##End ########
+
